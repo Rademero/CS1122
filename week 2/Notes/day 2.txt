@@ -1,0 +1,10 @@
+No day 1 MLK day
+classes encapsilation information/behaior
+informaation stroed in variables 
+behavior is captured in methods
+NO other code is allowed in a class
+Constants are upper case,classes are upercase. the rest are camel case.
+Command line 
+type java hellowworld.java -> HelloWorld.class
+java HelloWorld arg1 arg2
+args={"arg1,arg2} is the list.

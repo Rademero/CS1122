@@ -1,0 +1,13 @@
+verb can be a method, witch alows use in multiple classes
+cohesion is how closely related the methods and data are to a single concept
+depeneces is a class that depends on anoother class
+coupling is the degeree to witch a class is dependent on the objects from other classes
+you want a low coupling but high cohesion
+aggregation is the has-a relationship
+inhaeatence soild _________ with solid arrow
+interface is ------- soild arrow head
+aggreation is open dimond ________ with soild arrow 
+dependencey is -------->
+for UML diagrames
+Attributes are public variables
+draw.io and viso are good for UML diagrams

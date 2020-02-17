@@ -1,0 +1,30 @@
+Generics are the ability to paramererize types
+ex. ArrayList<Interger>list = new ArrayList<Interger>(); the generics is <Interger>
+generics only work with class defines objects
+generics can be used in iharative, you can have more than one generics data type
+ex.HashMap<String,Integer>
+generics aloww you to change a methods data type without rerwiting for diffrent datatype. 
+ex. change merage short to work for floats
+how to use
+public class Foo<E>{
+private E bar;
+public E getbar(){return bar;}
+public void setBar(E newval){
+bar=newval
+}
+}
+
+
+when you call Foo<Intager> will replace E with Intager in the code above
+for (E e:a){
+resuls = results + e+ " ";
+}
+retuern resulsts
+comparable will return a - num 0 or pos num. O means equil
+arrays don't work well with genarics
+arraylist do work well with generics
+public class Foo<E>implements Bar<E> same for exstends
+you can restrict with public class Foo<E exstends Comparable> {....}
+type Erasure
+genaric tys only exist during complile time
+virtual machien erases type parameters, replacing them with their bounds or objects

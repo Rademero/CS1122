@@ -1,0 +1,4 @@
+javaFX widgets 
+CategoryAxis xAxis = new CategoryAxis();
+NumberAxis yAxis = new NumberAxis
+final BarChart<String,Number> barchart

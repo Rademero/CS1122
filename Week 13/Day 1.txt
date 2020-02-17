@@ -1,0 +1,4 @@
+a tree consists of nodes with parent - child rlationship
+no loops with trees
+Root: node without a parent
+A tree contains a refrence to a root node

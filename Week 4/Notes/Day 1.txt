@@ -1,0 +1,19 @@
+How do you know what needs to be an object? Nouns are classes or property's
+propertey is a class with single value
+5 steps
+1.Gather requirements
+gather storys/ requerment. decide what is needed. end use might not always tell you everything you need. Ask alot of questions
+You also want to make the visulal look apepling to the user
+you pull out classes from the user strory
+list all the nouns to find classes. keep the list for later
+
+Discoving the methods, look for verbs or actions.object data is also a good thing.Relation sips between classes and data are good.
+
+2. use crc cards to plan classws and reltionsips
+write each class on index caed
+responsablitties are verbs/tasks
+find clollaboratros
+
+3.use UML diagrame to record classes relationsips
+4.use javadoc to documant method behavior
+5. implement your program

@@ -1,0 +1,5 @@
+fibnacci complexity is 2^n
+worst case for insertion sort is n^2
+bubble sort worst case n^2
+1102
+

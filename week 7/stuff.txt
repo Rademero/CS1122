@@ -1,0 +1,11 @@
+Recursion is a programming techique in which a method calls itself to solve some problem
+ex
+int sum
+(int n){
+int result = 0;
+if (num==1)
+results =1;
+else 
+result = n +sum(n-1);
+return result;
+}

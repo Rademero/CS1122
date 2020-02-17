@@ -1,0 +1,9 @@
+
+how is an object passes to a method? - A referecnce is sent to the object
+How mant copys of a static varialble? - 1.
+what is true about primative type? - it stores a value
+what is autoboxing? - it converts primateve type value to wrapper object containing that value. Use to conver to primative into classes.
+What can a constuter do? - anything any other method can do except return an qrbitrary value
+How is the state of an object represented? - instance variables
+What is the diffrence between a class and a object? - objects have state and behavior, classes don't
+Why should instance vareable be made private? - It restrices the assces from any method not in the class.

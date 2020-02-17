@@ -1,0 +1,40 @@
+ for(Contact contact: list) {
+pwt.println(contact.getName());
+pwt.println(contact.getNumber());
+}
+
+Exceptions are signals, like a return stament. Use throw statemnts to signal exceptions.
+Use throw exeptions to valadate your methods. Thow will keep going up untiled handeled. 
+Use a try block to catch the exeption.
+FileNotFound  inputMismatch  (IOException e2)
+Fatal errors are type Error
+Unchecked Exception:Descend from runtimes, won't force you
+Checked exceptions Must be either caught or declared by throws.
+
+
+Or add a throws clause insead of the try chatch block.ex add throws clause throws FileNotFountException, other exeption 
+finally clause will execute always no matter how it leaves the try or catch.USE THIS FOR PRINTWRITER
+ 
+e.printStackTrace(); is commin in catch blocks
+error have a diffrent out sreams 
+PrintWriter pwt = null;
+try{
+pwt = new PrintWriter(file);
+}
+Finally{
+if (pwt!= null){
+pwt.close();
+}}
+
+
+you can do try (PrintWriter pwt = ne PrintWriter(file)){} This works the same as above 
+you can rethrow with throw e; if declared at top of method.
+sourse folder file path is srcfilename.ext
+
+problem 4 exersise find a word even if it is in the center of the word ex. word ringe, display springefeild
+use command line to call the method
+edit configurations , ringe readme.txt otherfiles.txt in programe arguments
+String seek = args[0];
+for (int i = 1; i< args.length; i++) 
+
+to find a string in a string name.contains(seek);

@@ -1,0 +1,6 @@
+javaFX basicss
+framework for developing gui in java
+override the start(stage) method
+Stage to scene to button/nodes
+gride starts in the top left corner
+alot of shape classes, strock is pen width and color, fill to see shape

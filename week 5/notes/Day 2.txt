@@ -1,0 +1,21 @@
+Procedural programming is executed in procedural orde
+In envent driven proframing, code is executed upon activation of events
+foo = new EventHandler{
+buttonClicked(E){
+print"clicked";
+
+}
+this will stores what,when,potiostion, and other key preses when clicked.
+events are triggered by outside events
+
+btEnlarge.setOnAction{
+new EventHandler<ActionEvent>(){
+@Overide
+public void handle(ActionEvent e){
+}
+}
+});
+or 
+btEnlarge.setOnAction(e->{
+});
+lambda (type1 param1,type2 prama2,...) -> espression or -> {staments}

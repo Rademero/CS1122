@@ -1,0 +1,10 @@
+Memoization
+Store calculated results in a table or list
+
+ptofiling code 
+
+long startTime = System.nanoTime();
+
+long endTime = System.nanoTime();
+long executionTime = endTime -startTime ;
+O(n^2)

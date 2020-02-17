@@ -1,0 +1,2 @@
+InsertionSort is n^2 
+merage is nlogbase2 of n

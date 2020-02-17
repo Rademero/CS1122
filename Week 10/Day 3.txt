@@ -1,0 +1,12 @@
+Collections group together elements and allows them to be retrived later
+a list is a collection whose elements are indexed sequencially like an array. ArrayList LinkedList
+collection methods add,get,remove(element or index),isEmpty,size are in all collection 
+HashMap class implements the Map interface, maps allows you to associate elements from a key set with elements from a value collections
+use maps when you want to look up objects using a key
+for add use put( key than value )
+remove uses the key
+a stack is used like a list
+a stack is used for holding data to be reversed
+you can only rmove one elament at one end
+you can only get the top of the stack
+queue is a collection of elements with First-in,First-0out

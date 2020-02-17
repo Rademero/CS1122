@@ -1,0 +1,52 @@
+Seperate code into seprite files to keep organization
+File class only hold the information of where the file is ex dirveLetter:/stat place/folder/folder/file
+for big files you can do ex D:\\CS\\CS 1122\\Week 1 or D:/CS/CS 1122/Week 1
+you can't edit or change with the file class, sepereation of concern
+scanner can be used to read from a file with inp = new Scanner(system.in);   inp = new Scanner(new File("file new/path"); don't forget to import
+you can use hasNext(),hasNextLine,hasNextint to question if there are next
+nextByte(),nextShort,nextInt,next,nextLine can be used to get data
+Short uses 8 bits, 16 bits for int, 32 bits for a long, doble has twice the bits flouts have
+next just gets a word
+CLOSE THE FILE AFTER YOU ARE DONE WITH THE PROGRAME with .close(); when working with files
+Scanner in = newScanner(file);
+while(in.hasNext()){
+String myString = in.next()
+}
+
+for char
+Scanner in = newScanner(file);
+in.useDelimiter
+while(in.hasNext()){
+char myCar = in.next.charAt(o);
+}
+
+char test cases
+isDigit - Boolean
+isLetter - Boolean
+isUpperCase - Boolean
+isLowerCase - Boolean
+isWhitespace - Boolean
+
+Scanner in = newScanner(file);//Could be difficalteif used nextLine but doable 
+while(in.hasNext()){
+String myString = in.nextLine()
+}
+
+If you use nextInt could cause a mismatch exception 
+to get aroun hasNextInt()
+
+Scanner can be used to read from keyboard,string,file, and web page.Possibal others Scanner(URL)
+
+WRITING TO A FILE
+java.io.PrintWriter;
+PrintWriter pwt = new PrintWriter (file);
+for (Contact contact : list({
+pwt.println(Cantact.getName());
+pwt.println(cantact.getPhone());
+}
+pwt.close();
+
+
+psvm is a short cut, so is ctrl j
+
+

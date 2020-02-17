@@ -1,0 +1,33 @@
+contact list and contact entry program has a "has a" relationsship contactList has a-> contavt entry 
+is-a relationship 
+ex car -> is-a vheicle Inheritance relation
+four pilars
+Encapsulation- all data methods related to the thin being modeled should be contained within a class
+Other classes should always use the class interface to use
+
+Polymorphism- From one to many
+The ablity to differentiate behavior between subtypes and parents in a class hierarchy
+
+
+
+Abstraction-the prossess of generalizingg away from details
+often talked about terms of information
+
+
+Inheritance- Auttomatic reuse of data and functionality of a parent class, ability to form class hierarchies
+ex animale-> mammal
+    \>reptile
+A superclass is a more generalized class
+A subclass is a more speecilzed class, also uses all infomation from the master class
+Java dosn't alow mulitiple inharetace, you would have to redefine the behaivors of the master classes
+You want a single class that usese same method but diffrent values, no inharence for diffrent methods 
+to indacate a inhaence you use public class subclass extends superclass
+you redeclare to chage the behiovor of a method with an @overide 
+private still can only be used by the superclass so use public getters and seters or pertected 
+Don't redefine varieables is subclasses USE GETTERS AND SETERS
+Overiding a method occurs when you need to change the behavior specifed in a superclass to use in a subclass, ex. ToString 
+use the super keyword to directtly call a method in the superclass
+ex. super.display//uses the display method from the superclass
+you can have a method in your super class, and also overload for rhe same method name but diffrent perameters.
+
+

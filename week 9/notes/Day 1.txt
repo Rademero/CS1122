@@ -1,0 +1,4 @@
+Try to short in a liner (look at each elament 1 time) to be efficant. 
+buble sort is always inefficante
+Destructive short modifiys the input
+NonDestructive would make a new array

@@ -1,0 +1,73 @@
+Abstract classes and interfaces
+java has a keyword abstract on a class for the class can't be exstaceated
+method abstracs makes it so a method is define but not implamented
+ex is mouse click to change the behavior for the abstrace method. it's like a blank method for another programmer to use.
+You must extand the class to use the abstract
+
+public abstract class ME{
+public boolean iLeftP(){
+return false;
+}
+public abstract void mc();
+public abstract void mm();
+}
+
+public class myMouseE extends ME{
+use generate implmet methods
+@Override
+public void mc(){
+System.out.you know the rest
+}
+@Override
+public void mm(){
+beiavor
+}
+}
+public clas main{
+psvm{
+ME event = new mymouseE();
+event.mc();
+event.mm();
+}
+
+one draw back is it's a class with single inhareatece for java
+interface alows mulitiple inhareatce but can't hold and behivor. Only variables and enpty methods. this shows more polymorphics
+public interface Name{
+public String getName();
+public void setName(String name);
+}
+
+public class stuff implementes Name{
+private String name2 = "";
+ublic String getName(){return name}
+public void setName(tring stuff){name = name2}
+}
+
+public class person implements Name,Age{// alows for multiple inhareatence.
+stuff
+} 
+you can extend and implament a class ex public class MyEn extends ExtendsClassName implements InterfaceName{
+}
+Polymorphism
+references types can be any subclass or interface of the actual object type ex ME event = new mymouseE();
+this gives behaviors to the same method call depending upon what actual object is at runtime. 
+it alows the main class stuff to be used but still has subclass ablitys
+forcing overriding
+the parent class must have the method you are trying to use in the child class
+the keyword to force you use abstract. The finale pervents a overide
+abstraact forces the override
+you can have a finale class but it can't be exstended.
+maps are a data stucer where a value has a key. a map stores values along side it's key.
+public abstract class AbstactMap {
+public class KeyvaluePair{
+String key;
+Sting value;
+}
+public ArrayList <keyValuepair> list = new Arraylist<keyValuepair>();
+public String get(Sting key){
+for (KeyValuePair kvp :list){
+if (kvp.value;
+}
+return null
+}
+}
